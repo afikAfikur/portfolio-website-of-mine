@@ -162,3 +162,68 @@ nav li a{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
+.resumne_container{
+    display: flex;
+    gap: 24px;
+    
+}
+.resume{
+
+margin-left: 400px;
+}
+.section_title{
+    margin-left: 400px;
+}
+
+.experience_des{
+width: 511px;
+    height: 175px;
+}
+.cv_button{
+    margin:50px;
+    margin-left: 450px;
+    
+}
+footer{
+    background-color:rgba(255, 248, 243, 1);
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+footer input[type="text"]{
+height: 64px;
+border-radius: 5px;
+background-color: #FFF8F3;
+display: block;
+width: 100%;
+}
+.inbox {
+    margin-left: 0;
+    text-align: left;
+}
+
+.footer_column {
+    flex: 1;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+footer textarea {
+    height: 180px;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    padding: 10px;
+    resize: none;
+}
+.last_one{
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
