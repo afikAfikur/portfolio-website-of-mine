@@ -257,5 +257,34 @@ footer textarea {
 .items{
     flex-direction: column;
 }
-    
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.profile_pic{
+    max-width: 100%;
+
+}
+    .resume{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .cv_button{
+        margin-left: 40px;
+    }
+    .banner_title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.banner-content{
+        width: 100%;
+        height: auto;
+}
 }
