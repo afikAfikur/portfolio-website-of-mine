@@ -152,6 +152,7 @@ nav li a{
 
 .skills{
     display:flex ;
+    flex-direction: row;
     margin-top: 50px;
     gap: 24px;
 
@@ -164,6 +165,7 @@ nav li a{
 }
 .resumne_container{
     display: flex;
+    flex-direction: row;
     gap: 24px;
     
 }
@@ -188,6 +190,7 @@ footer{
     background-color:rgba(255, 248, 243, 1);
     padding: 130px 230px;
     display: flex;
+  
     gap: 100px;
 }
 footer input[type="text"]{
@@ -226,4 +229,33 @@ footer textarea {
 .icons{
     display: flex;
     gap: 10px;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+   .skills{
+    display:flex ;
+    flex-direction:column;
+   }
+   .resumne_container{
+    display: flex;
+    flex-direction: column;
+   }
+   footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   }
+   .section_title{
+    margin-left: 40px;
+}
+.about{
+    padding: 20px;
+
+}
+.items{
+    flex-direction: column;
+}
+    
 }
